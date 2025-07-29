@@ -74,3 +74,119 @@ header {
     background-color: #101113;
     color: white;
 }
+
+.left-section, .right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 75vh;
+}
+
+.img-left, .img-right {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.img-left img, .img-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.text-left, .text-right {
+    font-family: "Open Sans", sans-serif;   
+    width: 24%;
+}
+
+.text-left h2, .text-right h2 {
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.text-left p {
+    font-weight: 400;
+    font-style: Regular;
+}
+
+.right-section {
+    flex-direction: row-reverse;
+    background-color: #F6F6F6;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.text-middle h2, .text-middle p {
+    font-weight: 400;
+    font-style: Regular;
+}
+
+.text-middle h2 {
+    font-family: "Luckiest Guy", sans-serif;
+    font-size: 3.25rem;
+    margin-top: 60px;
+    width: 44%;
+}
+
+.text-middle p {
+    font-family: "Open Sans", sans-serif;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.img-middle {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+.img-middle img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272A;
+    height: 12vh;
+}
+
+.img-footer {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
