@@ -193,10 +193,10 @@ footer {
     object-fit: cover;
 }
 
-@media screen and (min-width: 700px) and (max-width: 769px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
 
     .text-header p {
-        width: 90%;
+        width: 75%;
     }
 
     .img-left, .img-right {
