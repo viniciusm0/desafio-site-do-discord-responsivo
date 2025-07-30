@@ -86,7 +86,7 @@ header {
 .img-left, .img-right {
     text-align: center;
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
 }
 
 .img-left img, .img-right img {
@@ -193,6 +193,25 @@ footer {
     object-fit: cover;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (min-width: 700px) and (max-width: 769px) {
 
+    .text-header p {
+        width: 90%;
+    }
+
+    .img-left, .img-right {
+        max-width: 500px;
+    }
+
+    .img-middle {
+        max-width: 650px;
+    }
+
+    .btn-header button, button + button {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+    
 }
