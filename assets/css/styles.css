@@ -24,14 +24,14 @@ header {
     font-weight: 400;
     font-style: Regular;
     width: 31%;
-    font-size: 4em;
+    font-size: calc(1rem + 3vw);
     color: white;
 }
 
 .text-header p {
     font-family: "Open Sans", sans-serif;
     width: 45%;
-    font-size: 1rem;
+    font-size: calc(0.8rem + 0.2vw);
     color: white;
 }
 
@@ -48,7 +48,7 @@ header {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: Regular;
-    font-size: 1rem;
+    font-size: calc(0.8rem + 0.2vw);
     width: 18%;
     border-radius: 20px;
     border: 0;
@@ -104,11 +104,12 @@ header {
 .text-left h2, .text-right h2 {
     font-weight: 800;
     font-style: ExtraBold;
-    font-size: 3rem;
+    font-size: calc(0.1rem + 2.5vw);
     margin-bottom: 20px;
 }
 
-.text-left p {
+.text-left p, .text-right p {
+    font-size: calc(0.8rem + 0.2vw);
     font-weight: 400;
     font-style: Regular;
 }
@@ -142,13 +143,14 @@ header {
 
 .text-middle h2 {
     font-family: "Luckiest Guy", sans-serif;
-    font-size: 3.25rem;
+    font-size: calc(1rem + 2vw);
     margin-top: 60px;
     width: 44%;
 }
 
 .text-middle p {
     font-family: "Open Sans", sans-serif;
+    font-size: (0.8rem + 0.2vw);
     width: 50%;
     margin-top: 30px;
 }
@@ -189,4 +191,8 @@ footer {
     height: auto;
     display: block;
     object-fit: cover;
+}
+
+@media screen and (max-width: 360px){
+
 }
