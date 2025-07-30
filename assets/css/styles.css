@@ -150,7 +150,7 @@ header {
 
 .text-middle p {
     font-family: "Open Sans", sans-serif;
-    font-size: (0.8rem + 0.2vw);
+    font-size: calc(0.8rem + 0.2vw);
     width: 50%;
     margin-top: 30px;
 }
@@ -212,6 +212,65 @@ footer {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 700px) {
-    
+@media screen and (min-width: 1px) and (max-width: 700px) {
+    header {
+        padding: 9vw;
+    }
+
+    .text-header h1 {
+        text-align: start;
+        align-self: flex-start;
+        width: 50%;
+    }
+
+    .text-header p {
+        text-align: start;
+        width: 100%;
+    }
+
+    .btn-header {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        row-gap: 10px;
+    }
+
+    .btn-header button, button + button {
+        width: 100%;
+        height: 45px;
+    }
+
+    .btn-header button {
+        margin-right: 0;
+    }
+
+    .left-section, .right-section {
+        flex-direction: column;
+    }
+
+    .text-left, .text-right {
+        width: 90%;
+    }
+
+    .text-left h2, .text-right h2 {
+        margin-top: 30px;
+        font-size: calc(0.8rem + 2.5vw);
+    }
+
+    .img-left, .img-right {
+        max-width: 400px;
+    }
+
+    .img-middle {
+        max-width: 400px;
+    }
+
+    .text-middle h2, .text-middle p {
+        width: 90%;
+        text-align: start;
+    }
+
+    .text-middle h2 {
+        font-size: calc(1.5rem + 2vw);
+    }
 }
