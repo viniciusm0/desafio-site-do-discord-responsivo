@@ -221,6 +221,7 @@ footer {
         text-align: start;
         align-self: flex-start;
         width: 50%;
+        font-size: calc(2rem + 2.5vw);
     }
 
     .text-header p {
